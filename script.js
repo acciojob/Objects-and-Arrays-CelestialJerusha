@@ -9,7 +9,7 @@ const person = {
 const team = [];
 players.forEach(function (item) {
         team.push(item);
-	players.splice(3, 1, "Dhoni");
+	team.splice(3, 1, "Dhoni");
     });
 
 const team1 = players.slice();
