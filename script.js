@@ -11,6 +11,7 @@ const team = players;
 team.splice(3,1,"Dhoni");
 
 const team1 = players.slice();
+team1.splice(3,1,"Poppy");
 
 const cap1 = Object.assign({}, person);
 
