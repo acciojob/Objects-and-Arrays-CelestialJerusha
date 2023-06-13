@@ -6,8 +6,11 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
-const team = players;
-team = ["John", "Bob", "Alice", "Dhoni"];
+const team = [];
+players.forEach(function (item) {
+        team.push(item);
+	players.splice(3, 1, "Dhoni");
+    });
 
 const team1 = players.slice();
 
